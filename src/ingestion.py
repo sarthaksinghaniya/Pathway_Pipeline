@@ -6,7 +6,6 @@ Handles loading novels from .txt files and chunking them into overlapping segmen
 import os
 import tiktoken
 from typing import List, Dict, Any
-import pathway as pw
 
 
 class NovelChunker:
@@ -133,22 +132,3 @@ class NovelChunker:
                 print(f"Generated {len(chunks)} chunks from {novel_name}")
         
         return all_chunks
-    
-    def create_pathway_table(self, chunks: List[Dict[str, Any]]) -> pw.Table:
-        """
-        Create a Pathway table from chunks.
-        
-        Args:
-            chunks: List of chunk dictionaries
-            
-        Returns:
-            Pathway table with chunk data
-        """
-        schema = {
-            "chunk_id": pw.column_definition(int),
-            "novel_name": pw.column_definition(str),
-            "text": pw.column_definition(str),
-            "token_count": pw.column_definition(int)
-        }
-        
-        return pw.Table.from_records(chunks, schema=schema)
