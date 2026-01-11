@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard';
 import ResultsTable from './components/ResultsTable';
 import DetailView from './components/DetailView';
 import Methodology from './components/Methodology';
+import ExplainerBot from './components/ExplainerBot';
 import { loadResults, loadEvidence } from './utils/dataLoader';
 
 const App = () => {
@@ -160,6 +161,9 @@ const App = () => {
     <div className="min-h-screen bg-gray-50">
       {renderNavigation()}
       {renderContent()}
+      
+      {/* ExplainerBot */}
+      <ExplainerBot />
       
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 mt-auto">
