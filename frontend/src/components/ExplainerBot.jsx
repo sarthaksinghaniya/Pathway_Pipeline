@@ -215,7 +215,7 @@ const ExplainerBot = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 w-96">
+    <div className="fixed bottom-6 left-6 z-50 w-96">
       {/* Chat Button */}
       {!isOpen && (
         <button
@@ -234,14 +234,14 @@ const ExplainerBot = () => {
       {isOpen && (
         <div className="bg-white rounded-2xl shadow-2xl border border-gray-200 w-96 h-[500px] flex flex-col overflow-hidden">
           {/* Header */}
-          <div className="flex items-center justify-between p-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
-            <div className="flex items-center space-x-3">
+          <div className="flex items-center justify-between p-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+            <div className="flex items-center space-x-3 mx-auto">
               <div className="flex items-center space-x-2">
                 <div className="relative">
                   <Sparkles className="h-6 w-6" />
-                  <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
+                  <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
                 </div>
-                <h3 className="font-bold text-white">AI Assistant</h3>
+                <h3 className="font-bold text-white text-lg">AI Assistant</h3>
               </div>
             </div>
             <button
@@ -334,11 +334,11 @@ const ExplainerBot = () => {
 
       {/* Disclaimers */}
       {isOpen && (
-        <div className="absolute bottom-full right-0 mb-2 w-80 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 border border-orange-200 rounded-2xl shadow-2xl backdrop-blur-sm">
+        <div className="absolute bottom-full left-0 mb-2 w-80 p-4 bg-gradient-to-r from-yellow-50 to-orange-50 border border-orange-200 rounded-2xl shadow-2xl backdrop-blur-sm">
           <div className="flex items-start space-x-3">
             <div className="relative">
               <AlertTriangle className="h-5 w-5 text-orange-600 mt-0.5 flex-shrink-0" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-pulse"></div>
+              <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
             </div>
             <div className="text-xs text-orange-800">
               <p className="font-bold text-orange-900">Important Notice:</p>
