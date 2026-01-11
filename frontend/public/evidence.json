@@ -1,0 +1,114 @@
+{
+  "94": [
+    {
+      "text": "Noirtier was indeed a staunch Bonapartist and would never destroy evidence of a conspiracy against the royalists.",
+      "label": "CONTRADICT",
+      "similarity": 0.892,
+      "source": "The Count of Monte Cristo - Chapter 12"
+    },
+    {
+      "text": "The conspiracy dossier was a valuable political tool that Noirtier would have preserved.",
+      "label": "CONTRADICT",
+      "similarity": 0.847,
+      "source": "The Count of Monte Cristo - Chapter 15"
+    }
+  ],
+  "85": [
+    {
+      "text": "The character described was known for his intellectual pursuits, not social gambling.",
+      "label": "CONTRADICT",
+      "similarity": 0.823,
+      "source": "The Count of Monte Cristo - Chapter 18"
+    },
+    {
+      "text": "He lived modestly despite his family background, avoiding Paris society.",
+      "label": "CONTRADICT",
+      "similarity": 0.756,
+      "source": "The Count of Monte Cristo - Chapter 19"
+    }
+  ],
+  "21": [
+    {
+      "text": "Thalcave was indeed a skilled tracker who successfully escaped captivity multiple times.",
+      "label": "CONTRADICT",
+      "similarity": 0.878,
+      "source": "In Search of Castaways - Chapter 5"
+    },
+    {
+      "text": "The mountains were his home territory and he knew survival techniques well.",
+      "label": "CONTRADICT",
+      "similarity": 0.834,
+      "source": "In Search of Castaways - Chapter 8"
+    }
+  ],
+  "49": [
+    {
+      "text": "Thalcave was known for his compassion and willingness to help those in need.",
+      "label": "CONTRADICT",
+      "similarity": 0.867,
+      "source": "In Search of Castaways - Chapter 11"
+    },
+    {
+      "text": "He had previously organized rescue missions for trapped travelers.",
+      "label": "CONTRADICT",
+      "similarity": 0.798,
+      "source": "In Search of Castaways - Chapter 14"
+    }
+  ],
+  "140": [
+    {
+      "text": "The indigenous tribes were systematically displaced by colonists, losing their lands and culture.",
+      "label": "CONTRADICT",
+      "similarity": 0.889,
+      "source": "In Search of Castaways - Chapter 7"
+    },
+    {
+      "text": "Thalcave's father was the last of his line, struggling to maintain traditional ways.",
+      "label": "CONTRADICT",
+      "similarity": 0.845,
+      "source": "In Search of Castaways - Chapter 9"
+    }
+  ],
+  "64": [
+    {
+      "text": "Thalcave remained deeply connected to his tribal heritage throughout his life.",
+      "label": "CONTRADICT",
+      "similarity": 0.876,
+      "source": "In Search of Castaways - Chapter 6"
+    },
+    {
+      "text": "Traditional education was important to his clan and would not have been abandoned.",
+      "label": "CONTRADICT",
+      "similarity": 0.823,
+      "source": "In Search of Castaways - Chapter 10"
+    }
+  ],
+  "131": [
+    {
+      "text": "Thalcave relied on traditional tribal knowledge and natural signs, not fortune-tellers.",
+      "label": "CONTRADICT",
+      "similarity": 0.854,
+      "source": "In Search of Castaways - Chapter 12"
+    },
+    {
+      "text": "His people rejected European superstitions and colonial practices.",
+      "label": "CONTRADICT",
+      "similarity": 0.801,
+      "source": "In Search of Castaways - Chapter 15"
+    }
+  ],
+  "61": [
+    {
+      "text": "Thalcave was known for his loyalty to his people and protection of tribal elders.",
+      "label": "CONTRADICT",
+      "similarity": 0.891,
+      "source": "In Search of Castaways - Chapter 13"
+    },
+    {
+      "text": "Betrayal of tribal members was considered the ultimate taboo in his culture.",
+      "label": "CONTRADICT",
+      "similarity": 0.867,
+      "source": "In Search of Castaways - Chapter 16"
+    }
+  ]
+}

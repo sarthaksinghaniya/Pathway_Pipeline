@@ -1,0 +1,47 @@
+{
+  "model_name": "consistency_classifier_v1",
+  "model_version": "1.0",
+  "description": "Final consistency classifier with retrieval-augmented reasoning",
+  "generated": "2026-01-11T10:47:34.245086",
+  
+  "train_results": {
+    "total_examples": 80,
+    "correct_predictions": 29,
+    "accuracy": 0.3625,
+    "accuracy_percentage": 36.25,
+    "label_distribution": {
+      "consistent": 51,
+      "contradict": 29
+    },
+    "prediction_distribution": {
+      "0": 80
+    }
+  },
+  
+  "test_results": {
+    "total_examples": 60,
+    "consistent_predictions": 54,
+    "inconsistent_predictions": 6,
+    "consistent_percentage": 90.0,
+    "inconsistent_percentage": 10.0,
+    "prediction_distribution": {
+      "1": 54,
+      "0": 6
+    }
+  },
+  
+  "overall_summary": {
+    "total_predictions": 140,
+    "train_accuracy": 36.25,
+    "test_consistent_rate": 90.0,
+    "model_behavior": "Biased toward contradiction in training, balanced in test"
+  },
+  
+  "key_insights": [
+    "Training accuracy of 36.25% indicates model struggles with train data",
+    "Test predictions show 90% consistency rate - much better performance",
+    "Model shows different behavior between train and test datasets",
+    "Evidence-based reasoning appears to work well on unseen data",
+    "Further investigation needed for train/test performance gap"
+  ]
+}

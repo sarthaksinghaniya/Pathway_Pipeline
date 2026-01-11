@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    background-color: rgb(249 250 251);
+    color: rgb(17 24 39);
+  }
+}
+
+@layer components {
+  .prediction-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .prediction-badge.consistent {
+    background-color: rgb(220 252 231);
+    color: rgb(22 101 52);
+  }
+  
+  .prediction-badge.inconsistent {
+    background-color: rgb(254 226 226);
+    color: rgb(185 28 28);
+  }
+  
+  .evidence-card {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    transition: all 0.2s;
+  }
+  
+  .evidence-card.support {
+    border-color: rgb(187 247 208);
+    background-color: rgb(240 253 244);
+  }
+  
+  .evidence-card.contradict {
+    border-color: rgb(254 202 202);
+    background-color: rgb(254 242 242);
+  }
+  
+  .evidence-card.neutral {
+    border-color: rgb(229 231 235);
+    background-color: rgb(249 250 251);
+  }
+  
+  .stat-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(229 231 235);
+    padding: 1.5rem;
+  }
+  
+  .page-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .page-container {
+      padding: 2rem 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .page-container {
+      padding: 2rem 2rem;
+    }
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(17 24 39);
+    margin-bottom: 1.5rem;
+  }
+}
